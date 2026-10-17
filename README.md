@@ -1,13 +1,13 @@
-#Подарок на день рождения папе
+# Подарок на день рождения папе
 
-##Зависимости:
-*Python*:
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+## Зависимости:
+Python: 
+* python3 -m venv .vena
+* source .venv/bin/activate
+* pip install -r requirements.txt
 
-*Остальные:*
-mpv (sudo apt-get install mpv )
+Остальные :
+* mpv (sudo apt-get install mpv )
 
-##Запуск:
+## Запуск:
 python3 main.py
