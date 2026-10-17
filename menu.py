@@ -47,6 +47,8 @@ def display_menu():
     menu_items.append("QUIT", style="bold white")
     menu_items.append("        Ну ты это, заходи, если что...\n", style="dim")
     
+    menu_items.append("\n  Возможно не все опции перечислены...\n", style="dim")
+    
     menu_items.append("\n")
     menu_items.append(" СТАТУС СИСТЕМЫ: ", style="dim")
     menu_items.append("ONLINE", style="bold bright_green")
