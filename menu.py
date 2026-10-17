@@ -27,10 +27,6 @@ def display_menu():
     )
     menu_items = Text()
     menu_items.append("\n")
-    menu_items.append("  [i] ", style="bold bright_green")
-    menu_items.append("IMAGE", style="bold white")
-    menu_items.append("       Уменьши размер шрифта до минимума\n", style="dim")
-    
     menu_items.append("  [t] ", style="bold bright_green")
     menu_items.append("TEXT", style="bold white")
     menu_items.append("        Душевные слова\n", style="dim")
@@ -42,6 +38,11 @@ def display_menu():
     menu_items.append("  [e] ", style="bold bright_green")
     menu_items.append("EPISODE", style="bold white")
     menu_items.append("     Давным-давно...\n", style="dim")
+    
+    menu_items.append("  [i] ", style="bold bright_green")
+    menu_items.append("IMAGE", style="bold white")
+    menu_items.append("       Уменьши размер шрифта до минимума, возможно терминал сломается\n", style="dim")
+    
     
     menu_items.append("  [q] ", style="bold bright_green")
     menu_items.append("QUIT", style="bold white")
