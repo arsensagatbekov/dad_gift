@@ -8,3 +8,6 @@ pip install -r requirements.txt
 
 *Остальные:*
 mpv (sudo apt-get install mpv )
+
+##Запуск:
+python3 main.py
